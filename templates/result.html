@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+	 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<header>
+		<div class="banner">
+          <h1>Classifying suicidal data with Machine learning</h1>
+        </div>
+
+	</div>
+	</header>
+	<h2>Prediction</h2>
+	<div class="results">
+
+	{% if prediction == 1%}
+
+	<h2 style="color:red;">This is a potential suicidal message</h2>
+	{% elif prediction == 0%}
+	<h2 style="color:blue;">No suicidal message detected</h2>
+	{% endif %}
+
+	</div>
+</body>
+</html>
