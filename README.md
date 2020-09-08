@@ -11,4 +11,4 @@ You can re-train the model in the jupyter notebook, export it and add to the fla
 
 **Vectorizers**: Count Vectorizer, TFID 
 
-**Classifier**: Logistic Regression, KNeighbors, SVC, LinearSVC, Decision Tree, Random Forest, Gaussian Naive Bayes
+**Classifiers**: Logistic Regression, KNeighbors, SVC, LinearSVC, Decision Tree, Random Forest, Gaussian Naive Bayes
